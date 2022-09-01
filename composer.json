@@ -1,0 +1,23 @@
+{
+    "name": "just-joni/test-for-feip",
+    "description": "Test for FEIP",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TestForFeip\\": "src/"
+        },
+        "classmap": [
+            "src/types/",
+            "src/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "JustJoni"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    }
+}
